@@ -4,7 +4,7 @@ Questo progetto simula un match di tennis, gestendo game, set e match in base al
 
 ---
 
-##Caratteristiche:
+## Caratteristiche:
 
 Gestione dei punteggi per i singoli game, set e match.
 Interfaccia grafica interattiva basata su JavaFX (con scenebuilder).
@@ -14,7 +14,7 @@ Supporto per partite al meglio di 5 set.
 
 ---
 
-##Requisiti:
+## Requisiti:
 
 Java 17 o versioni successive
 JavaFX 17 o versioni successive
@@ -22,7 +22,7 @@ Un ambiente di sviluppo come IntelliJ IDEA, Eclipse o Visual Studio Code
 
 ---
 
-##Come eseguire il Progetto:
+## Come eseguire il Progetto:
 
 1. Clona il repository:
    ```bash
@@ -38,7 +38,7 @@ Un ambiente di sviluppo come IntelliJ IDEA, Eclipse o Visual Studio Code
 
 ---
 
-##Struttura del progetto:
+## Struttura del progetto:
 
 TennisController: Gestisce la logica dell'interfaccia utente e gli eventi.
 Game: Implementa la logica di un singolo game.
