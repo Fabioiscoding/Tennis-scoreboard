@@ -66,8 +66,8 @@ public class TennisController {
 
     public TennisController() {
         // Inizializzazione dei giocatori, del game, del set e del match
-        g1 = new PunteggiGiocatore("Luca");
-        g2 = new PunteggiGiocatore("David");
+        g1 = new PunteggiGiocatore("Giocatore 1");
+        g2 = new PunteggiGiocatore("Giocatore 2");
         game = new Game(g1, g2);
         set = new Set(g1, g2);
         match = new Match(g1, g2); // Match al meglio di 5 set
