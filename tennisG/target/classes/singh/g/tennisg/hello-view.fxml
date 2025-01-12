@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" prefHeight="496.0" prefWidth="937.0" spacing="20.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="singh.g.tennisg.TennisController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Label fx:id="matchStatus" text="IL MATCH E' APPENA INIZIATO!!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <GridPane gridLinesVisible="true">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="0.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="100.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="50.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="70.0" minWidth="10.0" prefWidth="50.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="100.0" minHeight="100.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SET PRECEDENTI" GridPane.halignment="LEFT" GridPane.valignment="CENTER">
+               <GridPane.margin>
+                  <Insets left="50.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Label fx:id="set1G1" alignment="CENTER" contentDisplay="CENTER" text="0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="set2G1" alignment="CENTER" contentDisplay="CENTER" text="0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="set3G1" alignment="CENTER" contentDisplay="CENTER" text="0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="set4G1" alignment="CENTER" contentDisplay="CENTER" text="0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="set1G2" alignment="CENTER" contentDisplay="CENTER" text="0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="set2G2" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="0.0" text="0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="set3G2" alignment="CENTER" contentDisplay="CENTER" text="0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="set4G2" alignment="CENTER" contentDisplay="CENTER" text="0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin>
+            </Label>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="SET" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="PUNTI" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font></Text>
+            <Label fx:id="setG1" text="0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="setG2" text="0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="puntiG1" text="0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin></Label>
+            <Label fx:id="puntiG2" text="0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets top="10.0" />
+               </GridPane.margin></Label>
+            <Label text="GIOCATORI" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="G1" maxHeight="100.0" minHeight="100.0" mnemonicParsing="false" onAction="#onGiocatore1Click" prefHeight="100.0" prefWidth="1000000.0" text="Giocatore 1" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Button fx:id="G2" maxHeight="100.0" minHeight="100.0" mnemonicParsing="false" onAction="#onGiocatore2Click" prefHeight="100.0" prefWidth="10000.0" text="Giocatore 2" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Button>
+            <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="SET1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="SET4" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="SET3" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="SET2" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </GridPane>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#ResetClick" text="RESET">
+               <font>
+                  <Font size="21.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="810.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
